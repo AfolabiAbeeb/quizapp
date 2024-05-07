@@ -3835,7 +3835,8 @@ const Quiz = () => {
     return (
         <>
            <div className="text mx-5 my-5">{arrayObject.map((val,i) =>(
-               <><div className="text my-3 fw-bolder fs-3">{i + 1}.{val.question}</div>
+               <>    <h2>Eso OBE comprehensive High School aptitude test</h2>
+                   <div className="text my-3 fw-bolder fs-3">{i + 1}.{val.question}</div>
                <div className='d-flex fw-bold fs-5'>
                <div className="text mx-3">A.{val.A}</div>
                <div className="text mx-3">B.{val.B}</div>
